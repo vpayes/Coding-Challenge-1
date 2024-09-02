@@ -20,4 +20,29 @@ console.log(isActive, typeof(isActive));
  }
 
  console.log(products, productDetails)
+
+
+
+ // Task 3: Assignment Operators
+
+ let accountBalance = 20000;
+
+ accountBalance += 500;
+ console.log(accountBalance = 20500);
+
+ accountBalance -= 500
+ console.log(accountBalance = 20000);
+
+ accountBalance *= 2
+ console.log(accountBalance = 40000);
+
+ accountBalance /= 2
+ console.log(accountBalance = 20000);
+
+ accountBalance %= 2
+ console.log(accountBalance = 0);
+
+
  
+
+
