@@ -43,6 +43,19 @@ console.log(isActive, typeof(isActive));
  console.log(accountBalance = 0);
 
 
- 
 
+ // Task 4: Comparison Operators 
+
+ let employeeScore1 = 95
+ let employeeScore2 = 70
+
+ console.log("employeeScore1 > employeeScore2:", employeeScore1 > employeeScore2);
+ console.log("employeeScore1 < employeeScore2:", employeeScore1 < employeeScore2);
+ console.log("employeeScore1 >= employeeScore2:", employeeScore1 >= employeeScore2);
+ console.log("employeeScore1 <= employeeScore2:", employeeScore1 <= employeeScore2);
+ console.log("employeeScore1 === employeeScore2:", employeeScore1 === employeeScore2);
+ console.log("employeeScore1 !== employeeScore2:", employeeScore1 !== employeeScore2);
+
+
+ 
 
