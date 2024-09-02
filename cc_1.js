@@ -57,5 +57,21 @@ console.log(isActive, typeof(isActive));
  console.log("employeeScore1 !== employeeScore2:", employeeScore1 !== employeeScore2);
 
 
- 
+ // Task 5: Logical Operators 
+
+ let hasKeyCard = true;
+ let hasPermission = false; 
+
+ let accessAreaA = hasKeyCard && hasPermission;
+ console.log("Can access Area A:", accessAreaA);
+
+ let accessAreaB = hasKeyCard || hasPermission;
+ console.log("Can access Area B:", accessAreaB);
+
+ let deniedAreaA = !accessAreaA;
+ console.log("Cannot access Area A:", deniedAreaA);
+
+ let deniedAreaB = !accessAreaB;
+ console.log("Cannot access Area B:", deniedAreaB);
+
 
